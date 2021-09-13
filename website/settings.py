@@ -22,7 +22,13 @@ SECRET_KEY = 'z=9d96oex4sz7y&0%o(d3g$ae@%q%b2742o--1ur0&nbxtk$r$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['http://unishop.herokuapp.com/',
+'https://unishop.herokuapp.com/',
+'unishop.herokuapp.com',
+'unishop.herokuapp.com/',
+'127.0.0.1']
+
 
 
 # Application definition
