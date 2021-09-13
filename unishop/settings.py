@@ -14,7 +14,7 @@ SECRET_KEY = '=c_^67@&4il)k1r!#7uwygqk@xbx14f2sz*z5=-mc@05nm6bwa'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['unishop.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 
@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
+  
 ]
 
 MIDDLEWARE = [
